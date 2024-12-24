@@ -1,6 +1,8 @@
-1. Clone the Repository
+# FLask-sock-HTMX-example
 
-2. Set Up a Virtual Environment
+### 1. Clone the Repository
+
+### 2. Set Up a Virtual Environment
 
 It’s recommended to use a Python virtual environment to isolate dependencies.
 On Linux/MacOS:
@@ -13,13 +15,13 @@ On Windows:
     python -m venv venv
     venv\Scripts\activate
 
-3. Install Dependencies
+### 3. Install Dependencies
 
 With the virtual environment activated, install the required dependencies:
 
     pip install -r requirements.txt
 
-4. Configuration
+### 4. Configuration
 
 The app requires configuration files for secrets and other environment-specific settings.
 
@@ -34,13 +36,13 @@ Create config.py in the instance Folder: Example configuration:
 
 The app will automatically use this file for instance-specific configurations.
 
-5. Launch the App
+### 5. Launch the App
 
 Run the application with the following command:
 
     python run.py
 
-7. Deployment
+### 6. Deployment
 
 For production:
 
